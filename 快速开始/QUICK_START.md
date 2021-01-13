@@ -43,3 +43,15 @@ gnome-extensions disable example@wiki.gnome.org
 
 如果你创建的是一个演示插件并且顺利的话，应用插件后在gnome桌面右上角就会出现一个笑脸的icon，点击它会显示一个PopupMenu，至此我们的开发插件之旅踏出了第一步✨✨✨
 
+## 附录
+关于gnome-extensions常用命令
+```bash
+gnome-extensions --help | gnome-extensions -h: 查询所有命令
+gnome-extensions create -i: 创建插件并且加载，执行完需要重启gnome-shell才能加载
+gnome-extensions list: 列出现在所有插件
+gnome-extensions enable [uuid]: 启用某插件
+gnome-extensions disable [uuid]: 禁用某插件
+gnome-extensions uninstall [uuid]: 卸载某插件，会删除对应的源文件
+gnome-extensions pack [uuid]: 把对应的插件打成zip
+```
+
