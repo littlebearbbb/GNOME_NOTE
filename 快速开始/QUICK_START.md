@@ -9,6 +9,10 @@
 
 我自己的开发环境为ubuntu系统下默认安装了gnome桌面，并且安装visual studio code作为开发工具
 
+### 安装一个第三方插件
+
+关于安装第三方插件，可以查看知乎上的一篇文章[传送门](https://zhuanlan.zhihu.com/p/36265103)，亲测可用
+
 ### 生成一个默认插件
 
 ```bash
