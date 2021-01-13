@@ -31,7 +31,7 @@ journalctl -f -o cat /usr/bin/gnome-shell
 ```
 ## &#x26A0;注意  
 应用插件前需要先重启gnome-shell  
-重启的方法为alt + f2调出命令行工具，然后输入r/restart回车执行
+重启的方法为alt + f2调出命令行工具，然后输入r或者restart回车执行
 
 ```bash
 ## 应用该插件 (enable后为插件uuid)
