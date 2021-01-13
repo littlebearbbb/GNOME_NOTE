@@ -9,9 +9,8 @@
 
 我自己的开发环境为ubuntu系统下默认安装了gnome桌面，并且安装visual studio code作为开发工具
 
-### 具体流程
+### 生成一个默认插件
 
-1. 生成一个默认插件
 ```bash
 ## -i 命令会引导你键入插件name,description,uuid
 ## 生成时你可以选择一个有代码的实例项目
