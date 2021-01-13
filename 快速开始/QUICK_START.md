@@ -28,7 +28,12 @@ cd ~/.local/share/gnome-shell/extensions/
 ## 查看gnome-shell的系统日志
 ## 通过该命令可以查看当前日志，文档里说是可以发现错误什么的，但是用这种方式debug肯定还是不行，debug部分后续会单独开一个小结
 journalctl -f -o cat /usr/bin/gnome-shell
+```
+## &#x26A0;注意  
+应用插件前需要先重启gnome-shell  
+重启的方法为alt + f2调出命令行工具，然后输入r/restart回车执行
 
+```bash
 ## 应用该插件 (enable后为插件uuid)
 gnome-extensions enable example@wiki.gnome.org
 
